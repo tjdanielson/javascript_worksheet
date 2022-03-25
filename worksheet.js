@@ -80,30 +80,42 @@
 
 // Problem Six - Functions - Favorite Movie
 
-function printMovieName(){
-    let favoriteMovie = 'Hot Rod';
-    console.log(favoriteMovie)
+// function printMovieName(){
+//     let favoriteMovie = 'Hot Rod';
+//     console.log(favoriteMovie)
+// }
+
+// printMovieName();
+
+// // Problem Seven - Functions - Favorite Band
+
+// function favoriteBand() {
+//     let favoriteBand = prompt('What is your favorite band?');
+//     return favoriteBand
+// }
+
+// let userFavoriteBand = favoriteBand()
+// console.log(userFavoriteBand)
+
+// // Problem Seven - Functions - Concert
+
+// function concertDisplay(musicalAct) {
+//     let myStreet = prompt('What street do you live on?');
+//     console.log(`It would be great it ${musicalAct} played a show on ${myStreet}!`);
+// }
+
+// concertDisplay(userFavoriteBand)
+
+//Problem Eight - Arrays - Desktop Items
+
+let desktopItems = ['lamp', 'bulletin board', 'pen holder'];
+console.log(desktopItems[1])
+
+desktopItems.push('Infinity Gauntlet')
+
+for(let i = 0; i < desktopItems.length; i++){
+    console.log(desktopItems[i])
 }
 
-printMovieName();
-
-// Problem Seven - Functions - Favorite Band
-
-function favoriteBand() {
-    let favoriteBand = prompt('What is your favorite band?');
-    return favoriteBand
-}
-
-let userFavoriteBand = favoriteBand()
-console.log(userFavoriteBand)
-
-// Problem Seven - Functions - Concert
-
-function concertDisplay(musicalAct) {
-    let myStreet = prompt('What street do you live on?')
-    console.log(`It would be great it ${musicalAct} played a show on ${myStreet}!`)
-}
-
-concertDisplay(userFavoriteBand)
 
 
