@@ -108,13 +108,37 @@
 
 //Problem Eight - Arrays - Desktop Items
 
-let desktopItems = ['lamp', 'bulletin board', 'pen holder'];
-console.log(desktopItems[1])
+// let desktopItems = ['lamp', 'bulletin board', 'pen holder'];
+// console.log(desktopItems[1])
 
-desktopItems.push('Infinity Gauntlet')
+// desktopItems.push('Infinity Gauntlet')
 
-for(let i = 0; i < desktopItems.length; i++){
-    console.log(desktopItems[i])
+// for(let i = 0; i < desktopItems.length; i++){
+//     console.log(desktopItems[i])
+// }
+
+// Problem Nine: Magic Number
+
+let magicNumber = Math.floor(Math.random() * 100);
+let guess = 0;
+
+while (guess != magicNumber) {
+    guess = prompt('Guess the magic number!')
+    if (guess == magicNumber) {
+        alert(`${magicNumber} - Congratulations, you guessed the magic number!!`) 
+    } else if (guess > magicNumber) {
+        console.log('Too high!')
+        if (guess <= magicNumber + 10) {
+            console.log('Getting Warmer!')
+        }
+    } else if (guess < magicNumber) {
+        console.log('Too low!')
+        if (guess >= magicNumber - 10) {
+            console.log('Getting Warmer!')
+        }
+    } else {
+        console.log('Invalid input! Try again.')
+    }
 }
 
 
