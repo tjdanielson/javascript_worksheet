@@ -54,28 +54,56 @@
 
 // randomBand(randomNumber);
 
-// Problem Five For Loop
+// Problem Five - For Loops
 
-function printStatement() {
-    for (let i = 0; i < 7; i++) {
-        console.log('Javascript is cool!')
-    }
+// function printStatement() {
+//     for (let i = 0; i < 7; i++) {
+//         console.log('Javascript is cool!')
+//     }
+// }
+
+// printStatement();
+
+// let number = 0
+// for(let i = 0; i < 11; i++){
+//     console.log(number)
+//     number++
+// }
+
+// let hello = 'hello'
+// let goodbye = 'goodbye'
+
+// for(let i = 0; i < 5; i++){
+//     console.log(hello);
+//     console.log(goodbye);
+// }
+
+// Problem Six - Functions - Favorite Movie
+
+function printMovieName(){
+    let favoriteMovie = 'Hot Rod';
+    console.log(favoriteMovie)
 }
 
-printStatement();
+printMovieName();
 
-let number = 0
-for(let i = 0; i < 11; i++){
-    console.log(number)
-    number++
+// Problem Seven - Functions - Favorite Band
+
+function favoriteBand() {
+    let favoriteBand = prompt('What is your favorite band?');
+    return favoriteBand
 }
 
-let hello = 'hello'
-let goodbye = 'goodbye'
+let userFavoriteBand = favoriteBand()
+console.log(userFavoriteBand)
 
-for(let i = 0; i < 5; i++){
-    console.log(hello);
-    console.log(goodbye);
+// Problem Seven - Functions - Concert
+
+function concertDisplay(musicalAct) {
+    let myStreet = prompt('What street do you live on?')
+    console.log(`It would be great it ${musicalAct} played a show on ${myStreet}!`)
 }
+
+concertDisplay(userFavoriteBand)
 
 
