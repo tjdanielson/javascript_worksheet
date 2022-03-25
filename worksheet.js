@@ -38,18 +38,44 @@
 
 // Problem Four Conditionals - Random Number
 
-let randomNumber = Math.floor(Math.random() * 10);
+// let randomNumber = Math.floor(Math.random() * 10);
 
-function randomBand(randomNumber) {
-    if (randomNumber >= 0 && randomNumber <= 2) {
-        console.log('Beatles')
-    } else if (randomNumber >= 3 && randomNumber <= 5) {
-        console.log('Stones')
-    } else if (randomNumber >= 6 && randomNumber <= 8) {
-        console.log('Floyd')
-    } else if (randomNumber >= 9 && randomNumber <= 10) {
-        console.log('Hendrix')
+// function randomBand(randomNumber) {
+//     if (randomNumber >= 0 && randomNumber <= 2) {
+//         console.log('Beatles')
+//     } else if (randomNumber >= 3 && randomNumber <= 5) {
+//         console.log('Stones')
+//     } else if (randomNumber >= 6 && randomNumber <= 8) {
+//         console.log('Floyd')
+//     } else if (randomNumber >= 9 && randomNumber <= 10) {
+//         console.log('Hendrix')
+//     }
+// }
+
+// randomBand(randomNumber);
+
+// Problem Five For Loop
+
+function printStatement() {
+    for (let i = 0; i < 7; i++) {
+        console.log('Javascript is cool!')
     }
 }
 
-randomBand(randomNumber);
+printStatement();
+
+let number = 0
+for(let i = 0; i < 11; i++){
+    console.log(number)
+    number++
+}
+
+let hello = 'hello'
+let goodbye = 'goodbye'
+
+for(let i = 0; i < 5; i++){
+    console.log(hello);
+    console.log(goodbye);
+}
+
+
