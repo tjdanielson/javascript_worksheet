@@ -64,19 +64,24 @@
 
 // printStatement();
 
-// let number = 0
-// for(let i = 0; i < 11; i++){
-//     console.log(number)
-//     number++
+// function printNumbers() {
+//     let number = 0
+//     for(let i = 0; i < 11; i++){
+//         console.log(number)
+//         number++
+//     }
 // }
 
-// let hello = 'hello'
-// let goodbye = 'goodbye'
+// function printGreetings() {
+//     let hello = 'hello'
+//     let goodbye = 'goodbye'
 
-// for(let i = 0; i < 5; i++){
-//     console.log(hello);
-//     console.log(goodbye);
+//     for(let i = 0; i < 5; i++){
+//         console.log(hello);
+//         console.log(goodbye);
+//     }
 // }
+
 
 // Problem Six - Functions - Favorite Movie
 
@@ -108,14 +113,18 @@
 
 //Problem Eight - Arrays - Desktop Items
 
-// let desktopItems = ['lamp', 'bulletin board', 'pen holder'];
-// console.log(desktopItems[1])
+function printDesktopItems() {
 
-// desktopItems.push('Infinity Gauntlet')
+    let desktopItems = ['lamp', 'bulletin board', 'pen holder'];
+    console.log(desktopItems[1])
+    
+    desktopItems.push('Infinity Gauntlet')
+    
+    for(let i = 0; i < desktopItems.length; i++){
+        console.log(desktopItems[i])
+    }
+}
 
-// for(let i = 0; i < desktopItems.length; i++){
-//     console.log(desktopItems[i])
-// }
 
 // Problem Nine: Magic Number
 
